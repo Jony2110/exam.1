@@ -1,0 +1,23 @@
+.nav_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 63px;
+}
+.menu {
+  display: flex;
+  gap: 42px;
+  .menus {
+    a {
+      text-decoration: none;
+      color: #333136;
+      font-family: Jost;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    a:hover {
+      border-bottom: 1px solid #333136;
+      transition: all 0.3s ease;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.head__wrap {
+  background-color: #e7816b;
+  border-radius: 15px;
+  width: 1111px;
+  height: 640px;
+  font-family: Jost;
+  position: relative;
+  overflow: hidden;
+  margin-top: 57px;
+  color: #ffffff;
+
+  .head__flex {
+    width: 540px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 145px;
+    padding-left: 95px;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    width: 540px;
+    line-height: 48px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 445px;
+    line-height: 26px;
+  }
+  button {
+    background-color: #ffffff;
+  }
+  button:hover {
+    background-color: #ffad9b;
+    color: #ffffff;
+  }
+  .oval {
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    left: 470px;
+    top: 0;
+  }
+  .phone {
+    width: 279px;
+    height: 572px;
+    position: absolute;
+    top: 139px;
+    left: 733px;
+    object-fit: cover;
+  }
+}
+
